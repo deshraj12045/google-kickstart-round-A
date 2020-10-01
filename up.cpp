@@ -24,7 +24,17 @@ int main(){
 
         sort(g1,g1+n);
 
-        
+        for(int i=0;i<n;i++){
+            if(g1[i]<=x){
+                b=b+g1[i];
+                x=x-g1[i];
+                z++;
+            }
+            else{
+                g2[j]=z;
+                break;
+            }
+        }
     }
 
     for(int i=0;i<t;i++){
