@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
-    int t,n,x,a;
+    int t,n,x,a,b;
 
 
     cin>>t;
